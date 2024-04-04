@@ -1,18 +1,36 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>FC Barcelona </title>
-        </head>
-        <body>
-            <h1 class="textads"align="center">FC Barcelona</h1>
-            <div class="textads"align="center">
-                <a class="a" title="FC Barcelona" target="_blank" href="https://en.wikipedia.org/wiki/FC_Barcelona"><img src="https://static.barcanews.org/images/news/140201/thumbnail/3screenshot-2023-04-17-at-01-35-20-sddefault1681686896.jpg" alt="Workplace" usemap="#MSN" width="500" height="300"></a>
-            </div>
-            <map name="MSN">
-                <area shape="rect" coords="15,10,150,299" alt="Luis Suárez" href="https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez" class="a" title="Luis Suárez" target="_blank">
-                <area shape="rect" coords="200,1,335,299" alt="Neymar" href="https://en.wikipedia.org/wiki/Neymar" class="a" title="Neymar" target="_blank">
-                <area shape="rect" coords="360,1,499,299" alt="Lionel Messi" href="https://en.wikipedia.org/wiki/Lionel_Messi" class="a" title="Lionel Messi" target="_blank">
-            </map>
+<html>
+<head>
 
-        </body>
-    </html>
+ <title>Perimeter and area of a Triangle</title>
+ 
+<style type="text/css">
+body {
+	width:500px;
+	margin:auto;
+	text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+
+<script>
+var side1 = parseFloat(prompt("Enter the base of the triangle to Get the Area and perimeter:"));
+var side2 = parseFloat(prompt("Enter the height of the triangle to Get the Area:"));
+var side3 = parseFloat(prompt("Enter the second side of the triangle to Get the perimeter:"));
+var side4 = parseFloat(prompt("Enter the third side of the triangle to Get the perimeter:"));
+	 
+var Solve_TheArea = (side1 * side2 * 0.5);
+var Solve_Thep = (side1 + side3 + side4);
+ 
+document.write("<br>");
+document.write("<h3 style='color:blue; text-align:center;'>Perimeter and area of a Triangle</h3><br><br>");
+document.write("<b style='color:blue; font-size:18px;'> The perimeter of the Triangle is <b style='color:red;'>" + Solve_Thep + ".</b></b><br><br>");
+document.write("<b style='color:blue; font-size:18px;'> The Area of the Triangle is <b style='color:red;'>" + Solve_TheArea + ".</b></b>");
+</script>
+
+</body>
+
+</html>
