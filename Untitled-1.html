@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title>Perimeter and area of a Triangle</title>
+ 
+<style type="text/css">
+body {
+	width:500px;
+	margin:auto;
+	text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+
+<script>
+var side1 = parseFloat(prompt("Enter the base of the triangle to Get the Area and perimeter:"));
+var side2 = parseFloat(prompt("Enter the height of the triangle to Get the Area:"));
+var side3 = parseFloat(prompt("Enter the second side of the triangle to Get the perimeter:"));
+var side4 = parseFloat(prompt("Enter the third side of the triangle to Get the perimeter:"));
+	 
+var Solve_TheArea = (side1 * side2 * 0.5);
+var Solve_Thep = (side1 + side3 + side4);
+ 
+document.write("<br>");
+document.write("<h3 style='color:blue; text-align:center;'>Perimeter and area of a Triangle</h3><br><br>");
+document.write("<b style='color:blue; font-size:18px;'> The perimeter of the Triangle is <b style='color:red;'>" + Solve_Thep + ".</b></b><br><br>");
+document.write("<b style='color:blue; font-size:18px;'> The Area of the Triangle is <b style='color:red;'>" + Solve_TheArea + ".</b></b>");
+</script>
+
+</body>
+
+</html>
